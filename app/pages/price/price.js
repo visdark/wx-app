@@ -3,8 +3,7 @@ Page({
   data:{
     winWidth: 0,  
     winHeight: 0,  
-    list: 0,
-    Ask1: 0,
+    list: 0
   },
   
 
@@ -85,7 +84,7 @@ item["Ask1"]=item["Ask"].slice(-1);
               }                
             }
 _this.setData({
-        list: _list,
+        list: _list
         
           });
        
