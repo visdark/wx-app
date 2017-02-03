@@ -5,6 +5,8 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+    require('socket.js')
+    wx.Socket.connect()
   },
   getUserInfo:function(cb){
     var that = this
@@ -26,5 +28,12 @@ App({
   },
   globalData:{
     userInfo:null
+  },
+   onHide:function(){
+    // 页面隐藏
+     wx.Socket.unlisten()
+  },
+  onUnload:function(){
+    // 页面关闭
   }
 })

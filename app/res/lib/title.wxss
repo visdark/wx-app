@@ -1,9 +1,9 @@
 /** 标题样式 **/
 .color-0{
-  color: red;
+  color: blue;
 }
 .color-1{
-  color: green;
+  color: red;
 }
 .color-2{
   color: orange

@@ -1,5 +1,6 @@
 {
   "pages":[
+      "pages/price/price",
      "pages/me/me",
     "pages/me/me01-2",
     "pages/index/index",
@@ -21,8 +22,6 @@
    
     
     "pages/trade/trade",
-    
-    "pages/price/price",
     "pages/index/add",
     "pages/logs/logs"
   ],

@@ -31,7 +31,21 @@ margin: 0 25rpx;
 }
 .list .ul .li{
     font-size: 11pt;
+    text-align: right;
 }
 .list .ul .li:last-child{
     text-align: right;
+}
+.big{
+    font-size: 15pt;
+}
+.color-0 .big{
+background: white;
+}
+.color-1 .big{
+background: white
+}
+.small{
+    font-size: 9pt;
+    vertical-align:super;
 }
