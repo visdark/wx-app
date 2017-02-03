@@ -1,0 +1,48 @@
+<!--pages/me/me03.wxml-->
+ <view class="weui-cells">
+    <navigator url="me01" hover-class="navigator-hover">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="/res/icon/icon_01.png" alt="" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+        </view>
+        <view class="weui-cell__bd">
+        <text class="big">一个月</text>
+        <text class="small">10个跟单帐号</text>
+        </view>
+        <view class="weui-cell__ft"><button class="mini-btn" type="primary" size="mini">免费体验</button></view>
+      </view>
+    </navigator>
+    <navigator url="me02" hover-class="navigator-hover">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="/res/icon/icon_01.png" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+      </view>
+        <view class="weui-cell__bd">
+        <text class="big">VIP | $999/月 </text>
+        <text class="small">50个跟单帐号</text>
+        </view>
+        <view class="weui-cell__ft"><button class="mini-btn" type="warn" size="mini">购买</button>
+        </view>
+    </view>
+    </navigator>
+    <navigator url="me03" hover-class="navigator-hover">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="/res/icon/icon_01.png" alt="" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+      </view>
+      <view class="weui-cell__bd">
+        <text class="big">至尊VIP | $1999/月 </text>
+        <text class="small">100个跟单帐号</text>
+        </view>
+       <view class="weui-cell__ft"><button class="mini-btn" type="warn" size="mini">购买</button></view>
+    </view>
+    </navigator>
+  </view>
+
+   <view class="alert">
+  <view class="title">
+    <text class="h2">说明</text>
+  </view>
+<text class="p">1. 最多设置50个跟单信号源 
+  </text><text class="p">2. 支持正向反向跟单</text><text class="p">3. 5*24小时为你服务</text>
+</view>

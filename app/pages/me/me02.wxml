@@ -1,0 +1,120 @@
+
+<!--pages/index/add.wxml-->
+<view class="container">
+ 
+  <view class="row swiper-tab">
+    <view class="col swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">正在跟单</view>
+    <view class="col swiper-tab-list left_bor {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">历史记录</view>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 40}}px" bindchange="bindChange">
+    <swiper-item>
+      <scroll-view scroll-y="true" style="height: {{winHeight - 40}}px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+         <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-0">30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">编辑</button>
+         </navigator>
+         <navigator url="../index/add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+      <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-0">30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">编辑</button>
+         </navigator>
+         <navigator url="../index/add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+      <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-0">30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">编辑</button>
+         </navigator>
+         <navigator url="../index/add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="true" style="height: {{winHeight - 40}}px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+        <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-0">30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+         <navigator url="../index/add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>

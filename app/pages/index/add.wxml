@@ -1,0 +1,232 @@
+
+<!--pages/index/add.wxml-->
+<view class="container">
+<view class="row all">
+          <view class="col col-6 all-hd"> 当前余额(美元)</view>
+          <view class="col col-6 all-bd">3009.4</view>
+          <view class="col col-6 all-ft">盈亏比：-39.2%</view>
+          <view class="col col-6 all-ft"><view class="box">
+            <navigator url="add?id=0123456" hover-class="navigator-hover">
+              <button class="btn_add_big">立即跟单</button>
+            </navigator>
+          </view></view>
+        </view>
+  <view class="row swiper-tab">
+    <view class="col swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">总览</view>
+    <view class="col swiper-tab-list left_bor {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">订单</view>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 40}}px" bindchange="bindChange">
+    <swiper-item>
+      <scroll-view scroll-y="true" style="height:160px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="tab-bd">
+        <view class="row all-list">
+          <view class="col col-2">
+            <text class="tit">盈亏点数：</text>
+            <text class="con">3009.34</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">交易笔数：</text>
+            <text class="con">3009</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">平均持仓时间：</text>
+            <text class="con">42h6m</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">盈利占比：</text>
+            <text class="con">20.34%</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">亏损占比：</text>
+            <text class="con">70.65%</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">平均盈利：</text>
+            <text class="con">50%</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">最大盈利点数：</text>
+            <text class="con">3009</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">最大亏损点数：</text>
+            <text class="con">3007</text>
+          </view>
+          <view class="col col-2">
+            <text class="tit">最大回撤：</text>
+            <text class="con"> 30%</text>
+          </view>
+        </view>
+            
+      </scroll-view>  
+       <view class="item_hd">
+            总盈亏：
+            <text class="color-0">$308.50</text>
+          </view> 
+      <view class="box">
+              <canvas canvas-id="lineCanvas" class="canvas"></canvas>
+          </view>  
+    </swiper-item>
+    <swiper-item>
+      <view class="small-tab">
+        <view class="row swiper-tab border" bindtap="tabFun">
+          <view class="col border-left swiper-tab-list {{tabArr.curHdIndex=='0'? 'on' : ''}}" id="tab-hd01" data-id="0">当前持仓</view>
+          <view class="col border-right left_bor swiper-tab-list {{tabArr.curHdIndex=='1'? 'on' : ''}}" id="tab-hd02" data-id="1">交易历史</view>
+        </view>
+      </view>
+      <view class="tab-bd">
+        <view class="item {{tabArr.curBdIndex=='0'? 'on' : ''}}">
+          <view class="item_hd">
+            总盈亏：
+            <text class="color-0">$308.50</text>
+          </view>
+          <scroll-view scroll-y="true" style="height: {{winHeight - 240}}px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+            <view class="item_bd">
+              <view class="row bottom_bor">
+                <view class="col col_60">买涨 AUDUSD 0.01手</view>
+                <view class="col col_40">盈亏：
+                  <text class="color-1">$308.50</text>
+                </view>
+              </view>
+              <view class="row">
+                <view class="col col-3">建仓价格：1118.6</view>
+                <view class="col col-3">建仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">平仓价格：1118.6</view>
+                <view class="col col-3">平仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">止损价格：1102.7</view>
+                <view class="col col-3">止赢价格：-</view>
+                <view class="col col-3">平仓类型：手动平仓</view>
+              </view>
+            </view>
+            <view class="item_bd">
+              <view class="row bottom_bor">
+                <view class="col col_60">买涨 AUDUSD 0.01手</view>
+                <view class="col col_40">盈亏：
+                  <text class="color-1">$308.50</text>
+                </view>
+              </view>
+              <view class="row">
+                <view class="col col-3">建仓价格：1118.6</view>
+                <view class="col col-3">建仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">平仓价格：1118.6</view>
+                <view class="col col-3">平仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">止损价格：1102.7</view>
+                <view class="col col-3">止赢价格：-</view>
+                <view class="col col-3">平仓类型：手动平仓</view>
+              </view>
+            </view>
+            <view class="item_bd">
+              <view class="row bottom_bor">
+                <view class="col col_60">买涨 AUDUSD 0.01手</view>
+                <view class="col col_40">盈亏：
+                  <text class="color-1">$308.50</text>
+                </view>
+              </view>
+              <view class="row">
+                <view class="col col-3">建仓价格：1118.6</view>
+                <view class="col col-3">建仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">平仓价格：1118.6</view>
+                <view class="col col-3">平仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">止损价格：1102.7</view>
+                <view class="col col-3">止赢价格：-</view>
+                <view class="col col-3">平仓类型：手动平仓</view>
+              </view>
+            </view>
+          </scroll-view>
+          <view class="small-tab item_ft">
+            <navigator url="add?id=0123456" hover-class="navigator-hover">
+              <button class="btn_add_big">跟单</button>
+            </navigator>
+          </view>
+        </view>
+        <view class="item {{tabArr.curBdIndex=='1'? 'on' : ''}}">
+          <view class="item_hd">
+            总盈亏：
+            <text class="color-0">$308.50</text>
+          </view>
+          <scroll-view scroll-y="true" style="height: {{winHeight - 240}}px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+            <view class="item_bd">
+              <view class="row bottom_bor">
+                <view class="col col_60">交易历史同当前持仓</view>
+                <view class="col col_40">盈亏：
+                  <text class="color-1">$308.50</text>
+                </view>
+              </view>
+              <view class="row">
+                <view class="col col-3">建仓价格：1118.6</view>
+                <view class="col col-3">建仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">平仓价格：1118.6</view>
+                <view class="col col-3">平仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">止损价格：1102.7</view>
+                <view class="col col-3">止赢价格：-</view>
+                <view class="col col-3">平仓类型：手动平仓</view>
+              </view>
+            </view>
+            <view class="item_bd">
+              <view class="row bottom_bor">
+                <view class="col col_60">买涨 AUDUSD 0.01手</view>
+                <view class="col col_40">盈亏：
+                  <text class="color-1">$308.50</text>
+                </view>
+              </view>
+              <view class="row">
+                <view class="col col-3">建仓价格：1118.6</view>
+                <view class="col col-3">建仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">平仓价格：1118.6</view>
+                <view class="col col-3">平仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">止损价格：1102.7</view>
+                <view class="col col-3">止赢价格：-</view>
+                <view class="col col-3">平仓类型：手动平仓</view>
+              </view>
+            </view>
+            <view class="item_bd">
+              <view class="row bottom_bor">
+                <view class="col col_60">买涨 AUDUSD 0.01手</view>
+                <view class="col col_40">盈亏：
+                  <text class="color-1">$308.50</text>
+                </view>
+              </view>
+              <view class="row">
+                <view class="col col-3">建仓价格：1118.6</view>
+                <view class="col col-3">建仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">平仓价格：1118.6</view>
+                <view class="col col-3">平仓时间：
+                  <text class="time">2017-01-09 13:25</text>
+                </view>
+                <view class="col col-3">止损价格：1102.7</view>
+                <view class="col col-3">止赢价格：-</view>
+                <view class="col col-3">平仓类型：手动平仓</view>
+              </view>
+            </view>
+          </scroll-view>
+          <view class="small-tab item_ft">
+            <navigator url="add?id=0123456" hover-class="navigator-hover">
+              <button class="btn_add_big">跟单</button>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

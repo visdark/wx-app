@@ -1,0 +1,8 @@
+/* pages/me/me04.wxss */
+.con{
+    padding: 20rpx;
+    background: white;
+    font-size: 11pt;
+    display: block;
+    line-height: 1.5;
+}

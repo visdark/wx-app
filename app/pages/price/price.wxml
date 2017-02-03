@@ -1,0 +1,80 @@
+<!--pages/source/source.wxml-->
+<view class="row swiper-tab">
+    <view class="col">产品报价</view>
+    <view class="col left_bor">最新报价</view>
+     <view class="col left_bor">涨幅</view>
+  </view>
+
+      <scroll-view class="list" scroll-y="true" style="height:{{winHeight - 40}}px">
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li ">EDRUSD</view>
+    <view class="col li color-1">1160323.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li">EDRUSD</view>
+    <view class="col li color-1">1160.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li">EDRUSD</view>
+    <view class="col li color-1">1160.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li">EDRUSD</view>
+    <view class="col li color-1">1160.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li">EDRUSD</view>
+    <view class="col li color-1">1160.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li">EDRUSD</view>
+    <view class="col li color-1">1160.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+  <view class="row ul">
+    <view class="col li">USDJPY</view>
+    <view class="col li color-0">1160.92</view>
+     <view class="col li color-0">27.5%</view>
+  </view>
+   <view class="row ul">
+    <view class="col li">EDRUSD</view>
+    <view class="col li color-1">1160.92</view>
+     <view class="col li color-1">27.5%</view>
+  </view>
+   
+  </scroll-view>

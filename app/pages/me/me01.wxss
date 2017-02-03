@@ -1,0 +1,60 @@
+/* pages/me/me01.wxss */
+
+.tab-bd{  
+    line-height: 160%;  
+}  
+.tab-bd .item{  
+    display: none;  
+}  
+.tab-bd .item.on{  
+    display: block;  
+}  
+
+
+
+.step{
+	margin-top: 30px;
+	overflow: hidden;
+	counter-reset: step;
+    text-align: center;
+}
+.step .li {
+	list-style-type: none;
+	color: #27AE60;
+	text-transform: uppercase;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+.step .li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 36px;
+	line-height: 36px;
+	display: block;
+	font-size: 11pt;
+	color: black;
+	background: white;
+	border-radius: 100%;
+	margin: 0 auto 5px auto;
+}
+
+.step .li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 17px;
+	z-index: -1; 
+}
+.step .li:first-child:after {
+	
+	content: none; 
+}
+
+.step .li.active:before,  .step .li.active:after{
+	background: #27AE60;
+	color: white;
+}

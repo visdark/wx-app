@@ -1,0 +1,177 @@
+/* pages/index/add.wxss */
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+
+
+.swiper-tab{  
+    width: 100%;  
+    text-align: center;  
+    line-height: 40px;
+    background-color: #eaeaea;
+    margin: 0;
+    font-size: 11pt;
+    border-bottom: solid 1rpx #ccc;
+}  
+.small-tab{
+    margin: 20px;
+}
+
+.border{
+    border: solid 1rpx #ccc;
+    border-radius: 100px;
+}
+.border-left{
+     border-bottom-left-radius: 100rpx;
+     border-top-left-radius: 100rpx;
+}
+.border-right{
+     border-bottom-right-radius: 100rpx;
+     border-top-right-radius: 100rpx;
+}
+.swiper-tab-list.on{
+    background-color: white;
+    color: #16a086;
+}
+
+.tab-bd{  
+    line-height: 160%;  
+}  
+.tab-bd .item{  
+    display: none;  
+}  
+.tab-bd .item.on{  
+    display: block;  
+}  
+
+.item_hd{   
+    margin: 20px 0 0 0;
+    line-height: 40px;
+    background-color: #eaeaea;
+    text-align: center;
+    border-top: solid 1rpx #ccc;
+}
+.item_ft{   
+    margin: 20px ;
+    line-height: 40px;
+}
+.all{
+    background-color: #16a086;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+.all-hd{
+    font-size: 9pt;
+}
+.all-bd{
+    font-size: 24pt;
+    line-height: 50px;
+    color: yellow;
+    font-weight: bolder;
+}
+.all-ft{
+    font-size: 9pt;
+}
+.all-list{
+     font-size: 9pt;
+     margin: 0 0 0 -1px;
+     background-color: white;
+}
+.all-list .col{
+    padding: 10px 5px 5px 5px;
+    border-left:solid 1px gainsboro;
+    border-bottom:solid 1px gainsboro;
+}
+.all-list .col{
+    padding: 10px;
+    border-left:solid 1px gainsboro;
+    border-bottom:solid 1px gainsboro;
+}
+.all-list .col .tit {
+  font-size: 8pt;
+  width: 100%;
+  color: #9b9b9b;
+  display: block;
+  line-height: 30rpx;
+}
+
+.all-list .col .con {
+  font-size: 11pt;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  line-height: 50rpx;
+}
+.box{
+    line-height: 40px;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+.canvas {
+    width: 100%;
+    height: 200px;
+}
+.list{
+     font-size: 9pt;
+     margin: 0 0 0 -1px;
+     text-align: left;
+     border-top:solid 1px #69bcac; 
+     border-bottom:solid 1px #69bcac; 
+}
+
+.list .col{
+    padding: 10px;
+}
+.list .col .tit {
+  font-size: 8pt;
+  width: 100%;
+  display: block;
+  line-height: 30rpx;
+}
+
+.list .col .con {
+  font-size: 11pt;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  line-height: 50rpx;
+}
+.days.ul{
+width: 100%;
+border-bottom: solid 1rpx #eaeaea;
+text-align: center;
+margin: 0;
+padding: 0 25rpx;
+ line-height: 40px;
+    background-color: white;
+    font-size: 11pt;
+
+}
+
+.days.ul .li:first-child{
+    font-weight: bold;
+    text-align: left;
+}
+.days.ul .li{
+    font-size: 11pt;
+}
+.days.ul .li:last-child{
+    text-align: right;
+}
+.days .li .tit{
+    width: 100%;
+    display: block;
+    line-height: 30px;
+    margin: 20rpx 0 0 0;
+}
+.days .li .time{
+    font-size: 10px;
+    line-height: 10px;
+    display: block;
+    margin: 0 0 20rpx 0;
+    color: #ccc;
+}

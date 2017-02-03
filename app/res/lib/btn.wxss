@@ -1,0 +1,26 @@
+button::after {
+border:none;
+}
+
+
+.btn_add{
+    font-size: 11pt;
+    border: solid 1px #0dc29a;
+    border-radius: 20rpx !important;
+    background-color: white ;
+    color: #0dc29a;
+    font-weight: bold;
+    line-height:30px;
+    padding: 0;
+}
+
+.btn_add_big{
+    font-size: 13pt;
+    border: solid 1px #0dc29a;
+    border-radius: 20rpx !important;
+    background-color: #0dc29a;
+    color: white;
+    font-weight: bold;
+    line-height:40px;
+    padding: 0;
+}

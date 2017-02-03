@@ -1,0 +1,33 @@
+<!--pages/me/me01.wxml-->
+<view class="title">
+        <text class="h1">注册新用户</text>
+      </view>
+
+
+<view class="step">
+<view class="li active"></view>
+<view class="li"></view>
+<view class="li"></view>
+</view>
+<view class="title">
+        <text class="h6">第一步：输入手机号</text>
+      </view>
+
+<view class="form">
+  <form catchsubmit="formSubmit" catchreset="formReset">
+   <view class="box">
+  <view class="row">
+    <view class="col col-2">手机号码</view>
+    <view class="col col-4"><input type="number" placeholder="请输入手机号码" /></view>
+</view>
+<view class="row">
+    <view class="col col-2">验证码</view>  
+    <view class="col col-2"><input type="number" placeholder="请输入" /></view> 
+    <view class="col col-2"><button class="btn_add" bindtap="">发送验证码</button></view>  
+</view>
+</view>
+
+<view class="form-btn"> <button type="warn" bindtap="navigateTo">下一步</button></view> 
+  </form>
+</view>
+

@@ -1,0 +1,32 @@
+<!--pages/me/me01-2.wxml-->
+<view class="title">
+        <text class="h1">注册新用户</text>
+      </view>
+
+
+<view class="step">
+<view class="li active"></view>
+<view class="li active"></view>
+<view class="li active"></view>
+</view>
+<view class="title">
+        <text class="h6">第三步：绑定MT4账户</text>
+      </view>
+
+<view class="form">
+  <form catchsubmit="formSubmit" catchreset="formReset">
+   <view class="box">
+  <view class="row">
+    <view class="col col-2">MT4帐号</view>
+    <view class="col col-4"><input type="number" placeholder="请输入帐号" /></view>
+</view>
+<view class="row">
+    <view class="col col-2">MT4密码</view>  
+    <view class="col col-4"><input type="number" placeholder="请输入密码" /></view> 
+</view>
+</view>
+<view class="form-btn"> <button type="warn" bindtap="toast1Tap">绑定</button></view> 
+  </form>
+</view>
+
+

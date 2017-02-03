@@ -1,0 +1,82 @@
+/* pages/me/me02.wxss */
+
+.list_source{
+  background-color: white;
+  width: 100%;
+  margin: 0 0 40rpx 0;
+  padding: 25rpx 0;
+  border-bottom: solid 1rpx #ccc;
+  border-top: solid 1rpx #ccc;
+}
+
+
+.list_source .col .tit {
+  font-size: 8pt;
+  width: 100%;
+  color: #9b9b9b;
+  display: block;
+  margin-bottom: 5rpx;
+  line-height: 30rpx;
+}
+
+.list_source .col .con {
+  font-size: 11pt;
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 25rpx;
+  line-height: 50rpx;
+}
+
+
+.left_bor{
+  border-left:solid 1rpx #ccc; 
+}
+.btn_add{
+  margin: 20rpx 0;
+}
+
+.vis{
+  background: white;
+  text-align: center;
+  line-height: 42px;
+  margin: 0;
+  font-size: 13pt;
+  border-bottom: solid 1px #ccc;
+}
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+
+
+.swiper-tab{  
+    width: 100%;  
+    text-align: center;  
+    line-height: 40px;
+    background-color: #eaeaea;
+    margin: 0;
+    font-size: 11pt;
+    border-bottom: solid 1rpx #ccc;
+}  
+.small-tab{
+    margin: 20px;
+}
+
+.border{
+    border: solid 1rpx #ccc;
+    border-radius: 100px;
+}
+.border-left{
+     border-bottom-left-radius: 100rpx;
+     border-top-left-radius: 100rpx;
+}
+.border-right{
+     border-bottom-right-radius: 100rpx;
+     border-top-right-radius: 100rpx;
+}
+.swiper-tab-list.on{
+    background-color: white;
+    color: #16a086;
+}

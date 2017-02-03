@@ -1,0 +1,61 @@
+{
+  "pages":[
+     "pages/me/me",
+    "pages/me/me01-2",
+    "pages/index/index",
+     "pages/me/me01-0",
+     "pages/me/me01-1",
+    "pages/me/me01",
+     
+     
+     "pages/me/me02",
+     "pages/me/me03",
+     "pages/me/me04",
+     "pages/me/me05",
+    "pages/trade/list",
+    
+   
+     
+     "pages/index/in-",
+     "pages/index/in",
+   
+    
+    "pages/trade/trade",
+    
+    "pages/price/price",
+    "pages/index/add",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e3d4e",
+    "navigationBarTitleText": "微信小程序APP",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#2e3d4e",
+    "selectedColor": "#22bfa2",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "res/icon/icon_source.png",
+      "selectedIconPath": "res/icon/icon_source_on.png",
+      "text": "信号源"
+    }, {
+      "pagePath": "pages/price/price",
+      "iconPath": "res/icon/icon_price.png",
+      "selectedIconPath": "res/icon/icon_price_on.png",
+      "text": "行情"
+    }, {
+      "pagePath": "pages/trade/list",
+      "iconPath": "res/icon/icon_trade.png",
+      "selectedIconPath": "res/icon/icon_trade_on.png",
+      "text": "交易"
+    }, {
+      "pagePath": "pages/me/me",
+      "iconPath": "res/icon/icon_me.png",
+      "selectedIconPath": "res/icon/icon_me_on.png",
+      "text": "我的"
+    }]
+  }
+}

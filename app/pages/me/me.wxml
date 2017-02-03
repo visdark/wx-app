@@ -1,0 +1,74 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="weui-cells" style="margin-top:0">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" style="margin-right:20px;display:block"></image>
+      </view>
+      <view class="weui-cell__bd">
+        <text class="name">{{userInfo.nickName}}</text>
+        <text class="time">到期时间：2014-02-45</text>
+      </view>
+      <text class="weui-cell__ft"></text>
+    </view>
+  </view>
+  <view class="weui-cells">
+    <navigator url="me01" hover-class="navigator-hover">
+      <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__hd">
+          <image src="/res/icon/icon_01.png" alt="" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+        </view>
+        <text class="weui-cell__bd">交易账户</text>
+        <text class="weui-cell__ft"></text>
+      </view>
+    </navigator>
+     <navigator url="me01-0" hover-class="navigator-hover">
+      <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__hd">
+          <image src="/res/icon/icon_01.png" alt="" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+        </view>
+        <text class="weui-cell__bd">账户信息</text>
+        <text class="weui-cell__ft"></text>
+      </view>
+    </navigator>
+    <navigator url="me02" hover-class="navigator-hover">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <image src="/res/icon/icon_02.png" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+      </view>
+      <text class="weui-cell__bd">跟单设置</text>
+      <text class="weui-cell__ft"></text>
+    </view>
+    </navigator>
+    <navigator url="me03" hover-class="navigator-hover">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <image src="/res/icon/icon_03.png" alt="" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+      </view>
+      <text class="weui-cell__bd">服务付费</text>
+      <text class="weui-cell__ft"></text>
+    </view>
+    </navigator>
+  </view>
+  <view class="weui-cells">
+  <navigator url="me04" hover-class="navigator-hover">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <image src="/res/icon/icon_04.png" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+      </view>
+      <text class="weui-cell__bd">条款说明</text>
+      <text class="weui-cell__ft"></text>
+    </view>
+ </navigator>
+    <navigator url="me05" hover-class="navigator-hover">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <image src="/res/icon/icon_05.png" alt="" style="width:60rpx;height:60rpx;margin-right:5px;display:block"></image>
+      </view>
+      <text class="weui-cell__bd">关于</text>
+      <text class="weui-cell__ft"></text>
+    </view>
+     </navigator>
+  </view>
+</view>

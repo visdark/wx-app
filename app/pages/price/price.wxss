@@ -1,0 +1,37 @@
+/* pages/source/source.wxss */
+.swiper-tab{  
+    width: 100%;
+    text-align: center;  
+    line-height: 40px;
+    background-color: #eaeaea;
+    padding: 0 25rpx;
+    margin: 0;
+    font-size: 11pt;
+    border-bottom: solid 1rpx #ccc;
+}  
+
+.list{
+     width: 100%;  
+    text-align: center;  
+    line-height: 40px;
+    background-color: white;
+    margin: 0;
+    font-size: 11pt;
+    
+}
+.list .ul{
+width: 700rpx;
+border-bottom: solid 1rpx #eaeaea   ;
+margin: 0 25rpx;
+}
+
+.list .ul .li:first-child{
+    font-weight: bold;
+    text-align: left;
+}
+.list .ul .li{
+    font-size: 11pt;
+}
+.list .ul .li:last-child{
+    text-align: right;
+}

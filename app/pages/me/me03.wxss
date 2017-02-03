@@ -1,0 +1,13 @@
+/* pages/me/me03.wxss */
+
+.big{
+    font-size: 13pt;
+    width: 100%;
+    display: block;
+    line-height: 13pt;
+}
+.small{
+line-height: 9pt;
+    font-size: 9pt;
+    color: #ddd;
+}

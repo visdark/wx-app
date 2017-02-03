@@ -1,0 +1,71 @@
+
+<!--pages/trade/trade.wxml-->
+<navigator url="list?id=0123456" hover-class="navigator-hover">
+<view class="item_bd">
+  <view class="row bottom_bor">
+    <view class="col col_60">买涨 AUDUSD 0.01手</view>
+    <view class="col col_40">盈亏：
+      <text class="color-1">$308.50</text>
+    </view>
+  </view>
+  <view class="row">
+    <view class="col col-3">建仓价格：1118.6</view>
+    <view class="col col-3">建仓时间：
+      <text class="time">2017-01-09 13:25</text>
+    </view>
+    <view class="col col-3">平仓价格：1118.6</view>
+    <view class="col col-3">平仓时间：
+      <text class="time">2017-01-09 13:25</text>
+    </view>
+    <view class="col col-3">止损价格：1102.7</view>
+    <view class="col col-3">止赢价格：-</view>
+    <view class="col col-3">平仓类型：手动平仓</view>
+  </view>
+</view>
+</navigator>
+<navigator url="list?id=0123456" hover-class="navigator-hover">
+<view class="item_bd">
+  <view class="row bottom_bor">
+    <view class="col col_60">买涨 AUDUSD 0.01手</view>
+    <view class="col col_40">盈亏：
+      <text class="color-1">$308.50</text>
+    </view>
+  </view>
+  <view class="row">
+    <view class="col col-3">建仓价格：1118.6</view>
+    <view class="col col-3">建仓时间：
+      <text class="time">2017-01-09 13:25</text>
+    </view>
+    <view class="col col-3">平仓价格：1118.6</view>
+    <view class="col col-3">平仓时间：
+      <text class="time">2017-01-09 13:25</text>
+    </view>
+    <view class="col col-3">止损价格：1102.7</view>
+    <view class="col col-3">止赢价格：-</view>
+    <view class="col col-3">平仓类型：手动平仓</view>
+  </view>
+</view>
+</navigator>
+<navigator url="list?id=0123456" hover-class="navigator-hover">
+<view class="item_bd">
+  <view class="row bottom_bor">
+    <view class="col col_60">买涨 AUDUSD 0.01手</view>
+    <view class="col col_40">盈亏：
+      <text class="color-1">$308.50</text>
+    </view>
+  </view>
+  <view class="row">
+    <view class="col col-3">建仓价格：1118.6</view>
+    <view class="col col-3">建仓时间：
+      <text class="time">2017-01-09 13:25</text>
+    </view>
+    <view class="col col-3">平仓价格：1118.6</view>
+    <view class="col col-3">平仓时间：
+      <text class="time">2017-01-09 13:25</text>
+    </view>
+    <view class="col col-3">止损价格：1102.7</view>
+    <view class="col col-3">止赢价格：-</view>
+    <view class="col col-3">平仓类型：手动平仓</view>
+  </view>
+</view>
+</navigator>

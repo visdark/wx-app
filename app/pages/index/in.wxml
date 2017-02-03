@@ -1,0 +1,37 @@
+
+<!--pages/index/in.wxml-->
+<view class="title">
+        <text class="h1">填写跟单表</text>
+      </view>
+<view class="form">
+  <form catchsubmit="formSubmit" catchreset="formReset">
+   <view class="box">
+  <view class="row">
+    <view class="col col-2">下单手数</view>
+    <view class="col col-4"><input type="digit" placeholder="带小数点的数字键盘" placeholder="输入金额" /></view>
+</view>
+<view class="row">
+    <view class="col col-2">跟随方向</view>  
+    <view class="col col-4"><picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+            {{array[index]}}
+        </view>
+    </picker></view>  
+</view>
+</view>
+
+<view class="form-btn"> <button type="warn" formType="submit">确定</button></view> 
+<view class="form-btn"> <button type="default" formType="reset">取消跟单</button></view> 
+
+ 
+  
+  </form>
+  <view class="alert">
+  <view class="title">
+    <text class="h2">友情提示</text>
+  </view>
+<text class="p">假如您设置0.5倍比跟随，您的跟随对象下单1手，您下单0.5手，不足0.1手按0.1手下。最多5倍。 
+  </text><text class="p">正向跟随：他获利，您获利。</text><text class="p">反向跟随：他亏损，您获利。</text>
+</view>
+</view>
+

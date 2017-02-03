@@ -1,0 +1,151 @@
+/** 标题样式 **/
+.color-0{
+  color: red;
+}
+.color-1{
+  color: green;
+}
+.color-2{
+  color: orange
+}
+.title {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.h1, .h3, .h4, .h5 {
+  width: 94%;
+  display: block;
+  padding: 3%;
+}
+
+.h1 {
+  font-size: 56rpx;
+  font-weight: bold;
+  text-align: center;
+  background-color: #2e3d4e;
+  color: white;
+}
+
+.title .h2 {
+  font-size: 42rpx;
+  padding: 0 20rpx;
+  position: relative;
+  display: inline-block;
+  line-height: 100rpx !important;
+  width: auto;
+}
+
+.title .h2:before, .title .h2:after {
+  content: ' ';
+  width: 50rpx;
+  position: absolute;
+  border-width: 1px;
+  border-color: #bbb;
+  top: 40rpx;
+  height: 10rpx;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
+
+.title .h2:before {
+  right: 100%;
+}
+
+.title .h2:after {
+  left: 100%;
+}
+
+.h3 {
+  font-size: 34rpx;
+  border-bottom: solid 1px gainsboro;
+  font-weight: bold;
+}
+
+.h4 {
+  font-size: 28rpx;
+  background: whitesmoke;
+  text-align: left;
+  color: gray;
+  line-height: 28rpx;
+  height: 28rpx;
+}
+
+.h5 {
+  font-size: 30rpx;
+  background-color: orange;
+  color: white;
+  text-align: left;
+}
+
+.title .h6 {
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  position: relative;
+  display: inline-block;
+  line-height: 70rpx !important;
+  width: auto;
+  border-bottom: solid 1px orange;
+  color: orange;
+}
+
+.title .h6:before, .title .h6:after {
+  content: ' ';
+  width: 750rem;
+  position: absolute;
+  border-width: 1px;
+  border-color: gainsboro;
+  height: 70rpx;
+  border-bottom-style: solid;
+}
+
+.title .h6:before {
+  right: 100%;
+}
+
+.title .h6:after {
+  left: 100%;
+}
+
+/** 列表样式 **/
+
+.list-item {
+  margin: 20rpx 0;
+  background-color: #fff;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+
+.list-item:first-child {
+  margin-top: 0;
+}
+
+.list-text {
+  flex: 1;
+}
+
+.list-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.list-item-hd {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.3s;
+}
+
+.list-item-hd-show {
+  opacity: 0.2;
+}
+
+.list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+
+.list-item-bd-show {
+  height: auto;
+}

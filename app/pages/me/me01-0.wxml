@@ -1,0 +1,70 @@
+<!--pages/me/me01-0.wxml-->
+  <view class="weui-cells">
+    <navigator url="me01" hover-class="navigator-hover">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+        </view>
+        <text class="weui-cell__bd">MT4账户</text>
+        <text class="weui-cell__ft">201160521</text>
+      </view>
+    </navigator>
+     <navigator url="me01-0" hover-class="navigator-hover">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+        </view>
+        <text class="weui-cell__bd">账户类型</text>
+        <text class="weui-cell__ft">标准账户</text>
+      </view>
+    </navigator>
+    <navigator url="me02" hover-class="navigator-hover">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+      </view>
+      <text class="weui-cell__bd">杠杆比例</text>
+      <text class="weui-cell__ft">1：400</text>
+    </view>
+    </navigator>
+    <navigator url="me03" hover-class="navigator-hover">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+      </view>
+      <text class="weui-cell__bd">开户时间</text>
+      <text class="weui-cell__ft">2012-2-30</text>
+    </view>
+    </navigator>
+  </view>
+
+  <view class="weui-cells">
+    <navigator url="me01" hover-class="navigator-hover">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+        </view>
+        <text class="weui-cell__bd">初始入金</text>
+        <text class="weui-cell__ft">$3000</text>
+      </view>
+    </navigator>
+     <navigator url="me01-0" hover-class="navigator-hover">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+        </view>
+        <text class="weui-cell__bd">累计盈利</text>
+        <text class="weui-cell__ft">$30000</text>
+      </view>
+    </navigator>
+    <navigator url="me02" hover-class="navigator-hover">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+      </view>
+      <text class="weui-cell__bd">交易笔数</text>
+      <text class="weui-cell__ft">308笔</text>
+    </view>
+    </navigator>
+    <navigator url="me03" hover-class="navigator-hover">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+      </view>
+      <text class="weui-cell__bd">盈亏点数</text>
+      <text class="weui-cell__ft">201点</text>
+    </view>
+    </navigator>
+  </view>

@@ -1,0 +1,316 @@
+
+<!--pages/index/add.wxml-->
+<view class="container">
+  <view class="row all">
+    <view class="col col-6 all-hd"> 浮动盈亏(美元)</view>
+    <view class="col col-6 all-bd">3009.4</view>
+    <view class="col col-6 all-ft">
+      <view class="row list">
+        <view class="col col-2">
+          <text class="tit">净值：</text>
+          <text class="con">$3009.34</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">账户余额：</text>
+          <text class="con">$3009</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">客户净值：</text>
+          <text class="con">$42565</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">可用保证金：</text>
+          <text class="con">$3009.34</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">已用保证金：</text>
+          <text class="con">$3009</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">保证金比例：</text>
+          <text class="con">$42565</text>
+        </view>
+      </view>
+      <view class="box">
+        <navigator url="add?id=0123456" hover-class="navigator-hover">
+          <button class="btn_add_big">立即跟单</button>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="row swiper-tab">
+    <view class="col swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">当前持仓</view>
+    <view class="col swiper-tab-list left_bor {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">交易历史</view>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 40}}px" bindchange="bindChange">
+    <swiper-item>
+      <scroll-view scroll-y="true" style="height: {{winHeight - 40}}px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+        <view class="item_bd">
+          <view class="row bottom_bor">
+            <view class="col col_60">买涨 AUDUSD 0.01手</view>
+            <view class="col col_40">盈亏：
+              <text class="color-1">$308.50</text>
+            </view>
+          </view>
+          <view class="row">
+            <view class="col col-3">建仓价格：1118.6</view>
+            <view class="col col-3">建仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">平仓价格：1118.6</view>
+            <view class="col col-3">平仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">止损价格：1102.7</view>
+            <view class="col col-3">止赢价格：-</view>
+            <view class="col col-3">平仓类型：手动平仓</view>
+          </view>
+        </view>
+        <view class="item_bd">
+          <view class="row bottom_bor">
+            <view class="col col_60">买涨 AUDUSD 0.01手</view>
+            <view class="col col_40">盈亏：
+              <text class="color-1">$308.50</text>
+            </view>
+          </view>
+          <view class="row">
+            <view class="col col-3">建仓价格：1118.6</view>
+            <view class="col col-3">建仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">平仓价格：1118.6</view>
+            <view class="col col-3">平仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">止损价格：1102.7</view>
+            <view class="col col-3">止赢价格：-</view>
+            <view class="col col-3">平仓类型：手动平仓</view>
+          </view>
+        </view>
+        <view class="item_bd">
+          <view class="row bottom_bor">
+            <view class="col col_60">买涨 AUDUSD 0.01手</view>
+            <view class="col col_40">盈亏：
+              <text class="color-1">$308.50</text>
+            </view>
+          </view>
+          <view class="row">
+            <view class="col col-3">建仓价格：1118.6</view>
+            <view class="col col-3">建仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">平仓价格：1118.6</view>
+            <view class="col col-3">平仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">止损价格：1102.7</view>
+            <view class="col col-3">止赢价格：-</view>
+            <view class="col col-3">平仓类型：手动平仓</view>
+          </view>
+        </view>
+        <view class="item_bd">
+          <view class="row bottom_bor">
+            <view class="col col_60">买涨 AUDUSD 0.01手</view>
+            <view class="col col_40">盈亏：
+              <text class="color-1">$308.50</text>
+            </view>
+          </view>
+          <view class="row">
+            <view class="col col-3">建仓价格：1118.6</view>
+            <view class="col col-3">建仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">平仓价格：1118.6</view>
+            <view class="col col-3">平仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">止损价格：1102.7</view>
+            <view class="col col-3">止赢价格：-</view>
+            <view class="col col-3">平仓类型：手动平仓</view>
+          </view>
+        </view>
+        <view class="item_bd">
+          <view class="row bottom_bor">
+            <view class="col col_60">买涨 AUDUSD 0.01手</view>
+            <view class="col col_40">盈亏：
+              <text class="color-1">$308.50</text>
+            </view>
+          </view>
+          <view class="row">
+            <view class="col col-3">建仓价格：1118.6</view>
+            <view class="col col-3">建仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">平仓价格：1118.6</view>
+            <view class="col col-3">平仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">止损价格：1102.7</view>
+            <view class="col col-3">止赢价格：-</view>
+            <view class="col col-3">平仓类型：手动平仓</view>
+          </view>
+        </view>
+        <view class="item_bd">
+          <view class="row bottom_bor">
+            <view class="col col_60">买涨 AUDUSD 0.01手</view>
+            <view class="col col_40">盈亏：
+              <text class="color-1">$308.50</text>
+            </view>
+          </view>
+          <view class="row">
+            <view class="col col-3">建仓价格：1118.6</view>
+            <view class="col col-3">建仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">平仓价格：1118.6</view>
+            <view class="col col-3">平仓时间：
+              <text class="time">2017-01-09 13:25</text>
+            </view>
+            <view class="col col-3">止损价格：1102.7</view>
+            <view class="col col-3">止赢价格：-</view>
+            <view class="col col-3">平仓类型：手动平仓</view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="true" style="height: {{winHeight - 40}}px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+       <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li ">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-1">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-1">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li ">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-1">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-1">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li ">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-1">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-1">27.5%</view>
+        </view>
+        </navigator>
+        <navigator url="trade" hover-class="navigator-hover">
+        <view class="row days ul">
+          <view class="col li">
+            <text class="tit">USDJPY</text>
+            <text class="time">2017-12-10 15:00:03</text>
+          </view>
+          <view class="col li color-0">27.5%</view>
+        </view>
+        </navigator>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>

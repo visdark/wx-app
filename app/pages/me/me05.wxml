@@ -1,0 +1,16 @@
+<!--pages/me/me05.wxml-->
+<view class="title">
+        <text class="h1">公司简介</text>
+      </view>
+
+<text class="con">
+FXBTG BROKER 和大旗金融是BTG GROUP 旗下注册商标，我们提供全球金融市场的在线交易包括：外汇，贵金属，原油，股指CFD差价合约等。
+我们主张善用科技的力量为客户提供可交易全球金融资产的通道，并且对客户采用透明实时定价、最小点差和高灵活交易杠杆，使客户可以直接交易100多个商品并从中获取利润。
+
+FXBTG GROUP在全球的附属公司：
+新西兰(总部) FXBTG FINANCIAL LIMITED 
+BTG（美国）BTG GLOBAL ASSET MANAGEMENT LTD
+香港大旗金融集团有限公司
+FXBTG驻中国代表处
+
+</text>

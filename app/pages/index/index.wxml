@@ -1,0 +1,217 @@
+
+<!--index.wxml-->
+<view class="container">
+   
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-0">30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+         <navigator url="add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+ 
+   
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-1">-30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+         <navigator url="add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+
+  
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-1">-30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+     <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+         <navigator url="add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+
+
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-1">-30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+         <navigator url="add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+
+ 
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-1">-30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+     
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+         <navigator url="add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+ 
+ 
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-1">-30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+     <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+         <navigator url="add" hover-class="navigator-hover">
+        <button class="btn_add">详情</button>
+         </navigator>
+      </view>
+    </view>
+ 
+   <navigator url="add" hover-class="navigator-hover">
+    <view class="row list_source">
+      <view class="col col_20">
+        <text class="tit">盈亏</text>
+        <text class="con color-1">-30.6%</text>
+      </view>
+      <view class="col col_35 left_bor">
+        <text class="tit">余额</text>
+        <text class="con">434,349.87</text>
+        <text class="tit">最大回撤</text>
+        <text class="con">-17.80%</text>
+      </view>
+      <view class="col col_25">
+        <text class="tit">交易笔数</text>
+        <text class="con">308笔</text>
+        <text class="tit">交易周期</text>
+        <text class="con">20周</text>
+      </view>
+      <view class="col col_20">
+      <navigator url="index?id=2313" hover-class="navigator-hover">
+        <button class="btn_add" bindtap="actionSheetTap">跟单</button>
+         </navigator>
+      </view>
+    </view>
+  </navigator>
+  <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+    <action-sheet-item class="rev">选择跟随方式</action-sheet-item>
+   
+
+  <navigator url="in" hover-class="none">
+      <view class="vis">
+        固定数量下单
+      </view>
+      </navigator>
+        <navigator url="in-" hover-class="none">
+      <view class="vis">
+        固定数量下单
+      </view>
+      </navigator>
+
+   
+    <action-sheet-cancel>取消</action-sheet-cancel>
+  </action-sheet>
+
+</view>
